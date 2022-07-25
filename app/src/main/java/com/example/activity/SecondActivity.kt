@@ -22,10 +22,10 @@ class SecondActivity: AppCompatActivity(R.layout.activity_second) {
         val numberForCall ="+7"+numberFromFirstActivity
 
 
-//
-//        val intentNumber = Intent (ACTION_CALL)
-//        intentNumber.data = Uri.parse ("tel:" + numberForCall)
-//        startActivity (intentNumber)
+
+        val intentNumber = Intent (ACTION_CALL)
+        intentNumber.data = Uri.parse ("tel:" + numberForCall)
+        startActivity (intentNumber)
     }
 
 }
