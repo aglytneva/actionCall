@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtra("number", number)
                 startActivity(intent);
             }
-//        else infoUser.text = "Введите 10 цифр номера телефона"
+          else infoUser.text = "Введите 10 цифр номера телефона"
 
 //        buttonToStartCall.setOnClickListener {
 //            val number = in.getText().toString()
